@@ -60,7 +60,7 @@ public class Dijkstra {
     // 初始化
     public static void initResources() {
         // 从文件读取图的邻接矩阵
-        try (BufferedReader reader = new BufferedReader(new FileReader("E:\\exam\\idea\\Dijkstra\\src\\main\\resources\\map.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/map.txt"))) {
             int length = Integer.parseInt(reader.readLine().trim());
             if (length <= 0) {
                 throw new RuntimeException("length of map must bigger than 0");
