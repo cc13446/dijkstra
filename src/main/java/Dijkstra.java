@@ -51,8 +51,8 @@ public class Dijkstra {
                 }
             }
 
-            System.out.println(Arrays.toString(distance));
-            System.out.println(Arrays.toString(preNode));
+            System.out.println("Distance：" + Arrays.toString(distance));
+            System.out.println("PreNode：" + Arrays.toString(preNode));
             System.out.println("\n");
         }
     }
